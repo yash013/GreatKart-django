@@ -29,7 +29,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=True, cast=bool)
 
-ALLOWED_HOSTS = ['e-shop-env.eba-fpec9ha9.us-west-2.elasticbeanstalk.com',"*"]
+ALLOWED_HOSTS = ['https://dj-greatkart.herokuapp.com/','e-shop-env.eba-fpec9ha9.us-west-2.elasticbeanstalk.com',"*"]
 
 
 # Application definition
